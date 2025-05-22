@@ -8,6 +8,9 @@ class Employee {
             manager.addEmployee(this);
         }
     }
+    calculateBonus(multiplier){
+        return this.salary * multiplier;
+    }
 }
 
 module.exports = Employee;
